@@ -4,7 +4,7 @@ Tarayıcıda çalışan, bilgisayardan ve telefondan oynanabilen kısa bir 3B ca
 Şenlik meydanında sabit duran kılıçlı bir aşçıyı yönetirsin: yukarıdan yağan meyveleri
 tek tıkla doğrarsın, ama kılıç ağır olduğu için gelişigüzel savuramazsın — **doğru anı beklemelisin.**
 
-👉 **[Oyna](https://calkanli5.github.io/dogra-bakalim/)** (GitHub Pages yayına alındıktan sonra)
+👉 **[Oyna](https://calkanli5.github.io/dogra-bakalim/)** — kurulum yok, linke tıklayan herkes oynayabilir.
 
 ## Fruit Ninja'dan farkı ne?
 
@@ -95,11 +95,19 @@ Kurulum yok, derleme adımı yok. `index.html` dosyasını tarayıcıda aç, yet
 git clone https://github.com/calkanli5/dogra-bakalim.git
 ```
 
-### GitHub Pages ile yayınlama
+### Yayın
 
-1. Depoyu GitHub'a yükle.
-2. **Settings → Pages → Source: Deploy from a branch → Branch: `main` / `root`** seç.
-3. Bir iki dakika sonra oyun `https://<kullanici-adi>.github.io/dogra-bakalim/` adresinde yayında olur.
+Oyun **`gh-pages`** dalından yayınlanıyor: https://calkanli5.github.io/dogra-bakalim/
+
+Değişiklik yaptıktan sonra yayını güncellemek için `main`'e gönderip aynı içeriği
+`gh-pages` dalına da itmek yeterli:
+
+```bash
+git push origin main
+git push origin main:gh-pages
+```
+
+İkinci komuttan 1-2 dakika sonra site güncellenir.
 
 ## Teknik
 
