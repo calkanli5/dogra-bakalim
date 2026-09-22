@@ -91,6 +91,9 @@ Oynanışa hiçbir etkileri yoktur, sadece görünüş. İlerleme tarayıcının
 Kurulum yok, derleme adımı yok. `index.html` dosyasını tarayıcıda aç, yeter.
 (Three.js CDN'den çekildiği için ilk açılışta internet gerekir.)
 
+Gereksinim: **WebGL destekleyen güncel bir tarayıcı** — Chrome, Edge, Firefox veya Safari'nin
+son sürümleri ve güncel telefon tarayıcıları çalıştırır.
+
 ```bash
 git clone https://github.com/calkanli5/dogra-bakalim.git
 ```
